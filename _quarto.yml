@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Billingsley: Probability and Measure"
+  author: "Your Name"
+  sidebar:
+    style: "floating"
+    contents:
+      - index.qmd
+      - part: "Chapter 1: Existence and Extension"
+        contents:
+          - chapter1/section1.qmd
+      - part: "Chapter 2: Integration"
+        contents:
+          - chapter2/section1.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-copy: true
+    include-in-header:
+      - text: |
+          <script>
+          window.MathJax = {
+            tex: {
+              tags: 'ams'
+            }
+          };
+          </script>
+    # This pulls in your custom LaTeX commands for the web
+    include-before-body: commands.tex 
+  pdf:
+    documentclass: scrreprt
+    include-in-header: commands.tex
