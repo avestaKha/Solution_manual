@@ -2,18 +2,19 @@ project:
   type: book
 
 book:
-  title: "Billingsley: Probability and Measure"
-  author: "Your Name"
+  title: "Billingsley Solutions"
   sidebar:
-    style: "floating"
     contents:
       - index.qmd
-      - part: "Chapter 1: Existence and Extension"
-        contents:
-          - chapter1/section1.qmd
-      - part: "Chapter 2: Integration"
-        contents:
-          - chapter2/section1.qmd
+      - part: "Chapter 1. Probability"
+        chapters:
+          - section: "Section 1: Borel's Normal Number Theorem"
+            contents:
+              - ch01/sec01/S1P1.qmd
+              - ch01/sec02/prob02.qmd
+          - section: "Section 2: Fields"
+            contents:
+              - ch01/sec02/prob01.qmd
 
 format:
   html:
