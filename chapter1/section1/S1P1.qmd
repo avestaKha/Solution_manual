@@ -1,0 +1,19 @@
+\textbf{Problem 1.1.}
+\begin{enumerate}[label=(\alph*)]
+    \item  For $n \in \mathbb{N}$ define $B^{(1)}_{n}=A_n$ and $B^{(2)}_{n}=A_n^{c}$. Then for each $k \in \mathbb{N}$ the family of $2^k$ events
+$$
+E_{i_1,\dots,i_k} := \bigcap_{n=1}^{k} B^{(i_n)}_{n}, \quad i_n \in \{1,2\}
+$$
+forms a disjoint partition of $\Omega$ and, by independence, each event has probability $2^{-k}$. Now any $\omega \in \Omega$ is, for each $k \in \mathbb{N}$, contained in such an event and thereby
+$$
+P(\{\omega\}) \le 2^{-k} \text{ for all } k \in \mathbb{N} \implies P(\{\omega\})=0,
+$$
+so no point masses can exist.
+
+\item 
+Taking the same definitions of a), defining $\beta_n = \max \{ p_n, 1-p_n\}$ and using the basic inequality $1-x \leq e^{-x}$
+$$
+P(E_{i_1,\dots,i_k}) \leq \prod^{k}_{n=1} \beta_n \leq \exp \left( - \sum^{k}_{n=1} (1-b_n) \right) = \exp \left( - \sum^{k}_{n=1} \alpha_m \right)
+$$
+and the right hand side converges to $0$ as $k \to \infty$ so we can use the same argumentation as in a).
+\end{enumerate}
