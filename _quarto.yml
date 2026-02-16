@@ -10,11 +10,10 @@ book:
         chapters:
           - section: "Section 1: Borel's Normal Number Theorem"
             contents:
-              - ch01/sec01/S1P1.qmd
-              - ch01/sec02/prob02.qmd
+              - chapter1/section1/S1P1.qmd
           - section: "Section 2: Fields"
             contents:
-              - ch01/sec02/prob01.qmd
+              - chapter1/section2/S2P8.qmd
 
 format:
   html:
