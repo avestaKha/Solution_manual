@@ -7,6 +7,7 @@ book:
     contents:
       - part: "Chapter 1: Probability"
         contents:
+          - index.qmd
           - section: "Section 1: Borel's Normal Number Theorem"
             contents:
               - chapter1/section1/S01P01.qmd
