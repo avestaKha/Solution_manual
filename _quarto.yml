@@ -1,13 +1,10 @@
-project:
-  type: book
-
 book:
   title: "Billingsley Solutions"
   sidebar:
     contents:
       - index.qmd
-      - part: "Chapter 1. Probability"
-        chapters:
+      - part: "Chapter 1: Probability"
+        contents:
           - section: "Section 1: Borel's Normal Number Theorem"
             contents:
               - chapter1/section1/S01P01.qmd
