@@ -29,7 +29,7 @@ format:
           };
           </script>
     # This pulls in your custom LaTeX commands for the web
-    include-before-body: commands.tex 
+    include-before-body: notations.tex 
   pdf:
     documentclass: scrreprt
     include-in-header: commands.tex
