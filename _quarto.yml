@@ -29,4 +29,4 @@ format:
     include-before-body: notations.tex 
   pdf:
     documentclass: scrreprt
-    include-in-header: commands.tex
+    include-in-header: notations.tex
