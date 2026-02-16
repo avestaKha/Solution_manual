@@ -1,0 +1,12 @@
+\section*{Problem 2.8}
+Define $\mathscr{C}$ to be the smallest class closed under countable intersections/unions containing $\mathscr{A}$. Further we define $\mathscr{D} = \{A \mid A^c \in \mathscr{C}\}$. Then by property of $\mathscr{A}$ one has $\mathscr{A \subset \mathscr{D}}$ and further $\mathscr{D}$ is closed under countable intersections/unions: Let $A^c_1, A^c_2, \ldots$ be in $\mathscr{C}$ (equivalently $A_1, A_2, \ldots$ in $\mathscr{D}$), then one has 
+\begin{align*}
+    \left(\bigcup_n A_n\right)^c = \bigcap_n A^c_n \in \mathscr{C}\,,
+\end{align*}
+since $\mathscr{C}$ is closed under countable intersections and also 
+\begin{align*}
+    \left(\bigcap_n A_n\right)^c = \bigcup_n A^c_n \in \mathscr{C}\,,
+\end{align*}
+since $\mathscr{C}$ is closed under countable unions. Therefore
+$$\bigcup_n A_n \,, \bigcap_n A_n \in \mathscr{D}$$
+which is equivalent to $\mathscr{C}$ being closed under intersections. Therefore one has $\mathscr{A} \subset \mathscr{C} \subset \sigma(\mathscr{A})$ and $\mathscr{C}$ is closed under intersections/unions/complements, so therefore $\mathscr{C} = \sigma(\mathscr{A})$.
