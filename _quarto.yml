@@ -5,7 +5,6 @@ book:
   title: "Billingsley Solutions"
   sidebar:
     contents:
-      - index.qmd
       - part: "Chapter 1: Probability"
         contents:
           - section: "Section 1: Borel's Normal Number Theorem"
